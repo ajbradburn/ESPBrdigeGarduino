@@ -1,0 +1,10 @@
+void log_poll();
+void log_force();
+void log_init();
+void log_append_char(char entry);
+void log_append_string(char *entry_long, int entry_length, bool newline = true);
+void log_append_int(int entry);
+void log_append_long(long entry);
+void log_append_ulong(unsigned long entry);
+void log_append_float(float entry);
+void log_export();

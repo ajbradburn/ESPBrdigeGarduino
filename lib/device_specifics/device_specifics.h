@@ -1,0 +1,6 @@
+#define SPI_ADDRESS 100
+#define IS_SLAVE_MASTER 1
+
+#define DEBUG 1
+#define DEBUG_MEM 0
+#define DEBUG_INTERRUPT 0
